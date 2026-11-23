@@ -17,6 +17,6 @@ La app trae el addon **KNU Companion**. Si ya lo bajaste de CurseForge, también
 - Windows 10 u 11 de 64 bits.
 - World of Warcraft: Forever.
 
-La app sólo lee la carpeta del juego. Escribe ahí únicamente cuando le pedís instalar o actualizar el addon.
+La app lee la carpeta del juego. Escribe ahí sólo para instalar o actualizar el addon y para liberar en disco la parte de `Logs/General.log` que ya leyó (el archivo sigue ahí, sin ocupar espacio).
 
 Este repo tiene sólo las versiones para descargar. Es una beta: si algo falla, abrí un issue.
