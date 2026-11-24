@@ -1,21 +1,43 @@
-# KNU Companion
+# KnuCompanion
 
-App de escritorio para World of Warcraft: Forever. La dejás abierta en un segundo monitor y ves tus bolsas, tu banco, tu equipo y un mapa con tu posición, tus misiones y el correo nuevo, mientras jugás.
+App de escritorio para World of Warcraft: Forever. La dejás abierta en otro monitor y ves tus bolsas, tu banco, tu equipo, tu personaje en 3D, tus misiones, el chat y un mapa con tu posición y el camino hasta tu destino, mientras jugás.
 
 ## Descarga
 
-Bajá el último `.zip` de [Releases](https://github.com/knupson/KnuCompanion/releases/latest).
+Bajá `KnuCompanion-win-Setup.exe` de [Releases](https://github.com/knupson/KnuCompanion/releases/latest) y ejecutalo. La app se instala y se actualiza sola.
 
-1. Descomprimí el zip entero en una carpeta propia. No la abras desde adentro del zip.
-2. Abrí `WOWCompanion.App.exe` y elegí la carpeta de World of Warcraft.
-3. Tocá **Instalar addon** y entrá al juego (o hacé `/reload`).
+1. Abrí KnuCompanion y elegí la carpeta de World of Warcraft.
+2. Tocá **Instalar addon** y entrá al juego (o hacé `/reload`).
 
-La app trae el addon **KNU Companion**. Si ya lo bajaste de CurseForge, también sirve: la app usa el que esté instalado y te avisa si hay uno más nuevo.
+Sin instalar: bajá `KnuCompanion-win-Portable.zip`, descomprimilo entero en una carpeta propia y abrí `KnuCompanion.exe`.
 
-## Requisitos
+## Qué hace falta
+
+### Obligatorio
 
 - Windows 10 u 11 de 64 bits.
 - World of Warcraft: Forever.
+- El addon **KnuCompanion**. Viene con la app y se instala con un botón. También está en CurseForge.
+
+### Opcional
+
+La app anda sin estos addons. Cada uno que tengas suma lo que dice la tabla:
+
+| Addon | Qué agrega |
+|---|---|
+| FarstriderLib + FarstriderLib Data | Camino por las rutas hasta tu destino, con vuelos, barcos y portales |
+| ShortestPathForever | Ruta por tramos si no tenés FarstriderLib |
+| TomTom | El destino de la flecha en el mapa |
+| Syndicator | Qué tiene cada uno de tus personajes sin conectarlo |
+| Baganator | Categorías de Bolsas y Banco en el orden de Baganator |
+| Auctionator | Precio de subasta en los tooltips |
+| QuestieDB | Zonas de los objetivos de tus misiones en el mapa, y si tu objetivo es una criatura que te pide una misión |
+| KnuJunk | Marcas de basura en las bolsas |
+| HandyNotes (mazmorras, libros, WoW Forever) | Entradas de mazmorras, libros y raros en el mapa |
+
+En la app, Engranaje → **Addons: obligatorio y opcionales…** muestra cuáles tenés.
+
+## Qué toca en tu PC
 
 La app lee la carpeta del juego. Escribe ahí sólo para instalar o actualizar el addon y para liberar en disco la parte de `Logs/General.log` que ya leyó (el archivo sigue ahí, sin ocupar espacio).
 
