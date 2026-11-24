@@ -142,3 +142,14 @@ td { color: var(--muted); }
   .portada-captura img { animation: none; }
   .boton:active { transform: none; }
 }
+
+/* Otros addons de KNU */
+.knu { padding: 96px var(--gutter) 24px; }
+.knu h2 { margin-bottom: 0.5em; }
+.knu-bajada { max-width: 60ch; margin-bottom: 36px; }
+.knu-lista { list-style: none; margin: 0 0 24px; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid var(--border); }
+.knu-lista li { padding: 22px 24px 22px 0; border-bottom: 1px solid var(--border); }
+.knu-lista a { display: block; font: 700 1.6rem/1.1 var(--display); text-decoration: none; margin-bottom: 6px; }
+.knu-lista span { color: var(--muted); font-size: 0.95rem; }
+@media (max-width: 960px) { .knu-lista { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 520px) { .knu-lista { grid-template-columns: 1fr; } }
