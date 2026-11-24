@@ -2,6 +2,8 @@
 
 App de escritorio para World of Warcraft: Forever. La dejás abierta en otro monitor y ves tus bolsas, tu banco, tu equipo, tu personaje en 3D, tus misiones, el chat y un mapa con tu posición y el camino hasta tu destino, mientras jugás.
 
+Página: **[companion.knunet.com](https://companion.knunet.com)**, con capturas y la guía de instalación.
+
 ## Descarga
 
 Bajá `KnuCompanion-win-Setup.exe` de [Releases](https://github.com/knupson/KnuCompanion/releases/latest) y ejecutalo. La app se instala y se actualiza sola.
