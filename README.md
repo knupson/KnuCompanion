@@ -39,6 +39,20 @@ La app anda sin estos addons. Cada uno que tengas suma lo que dice la tabla:
 
 En la app, Engranaje → **Addons: obligatorio y opcionales…** muestra cuáles tenés.
 
+## Otros addons de KNU / Other KNU addons
+
+KnuCompanion es la pieza central de los addons KNU: la app junta en otro monitor lo que pasa en tu partida, y estos addons cuidan el resto dentro del juego.
+KnuCompanion is the hub of the KNU addons: the app shows your game on a second monitor, and these addons handle the rest inside the game.
+
+| Addon | Qué hace | What it does |
+|---|---|---|
+| [KnuUI](https://www.curseforge.com/wow/addons/knuui) | Interfaz compacta en ámbar para ElvUI | Compact amber layout for ElvUI |
+| [KnuMail](https://www.curseforge.com/wow/addons/knumail) | Buzón simple y seguro | Simple, safe mailbox |
+| [KnuJunk](https://www.curseforge.com/wow/addons/knujunk) | Marca y vende lo que no sirve, y repara solo | Marks and sells junk, repairs automatically |
+| [KnuCast](https://www.curseforge.com/wow/addons/knucast) | Marca en las barras qué hechizos sirven contra el objetivo | Highlights which spells work against your target |
+
+Todos los proyectos / All projects: [curseforge.com/members/knupwns/projects](https://www.curseforge.com/members/knupwns/projects)
+
 ## Qué toca en tu PC
 
 La app lee la carpeta del juego. Escribe ahí sólo para instalar o actualizar el addon y para liberar en disco la parte de `Logs/General.log` que ya leyó (el archivo sigue ahí, sin ocupar espacio).
