@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KnuCompanion · WoW Forever en tu otro monitor</title>
+<meta name="description" content="App de Windows que muestra en vivo tus bolsas, tu equipo, tus misiones y un mapa con el camino a tu destino mientras jugás World of Warcraft: Forever.">
+<meta name="theme-color" content="#110c08">
+<meta property="og:title" content="KnuCompanion">
+<meta property="og:description" content="Bolsas, mapa y misiones de WoW Forever en tu otro monitor, en vivo.">
+<meta property="og:image" content="https://companion.knunet.com/img/compartir.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="img/icono.png">
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<header class="barra">
+  <a class="marca" href="#arriba" aria-label="KnuCompanion, inicio">Knu<span>Companion</span></a>
+  <nav aria-label="Secciones">
+    <a href="#instalar">Instalar</a>
+    <a href="#paneles">Paneles</a>
+    <a href="#addons">Addons</a>
+    <a href="https://github.com/knupson/KnuCompanion/releases">Versiones</a>
+  </nav>
+  <a class="boton boton-chico js-descarga" href="https://github.com/knupson/KnuCompanion/releases/download/v0.15.93-beta/KnuCompanion-win-Setup.exe">Descargar</a>
+</header>
+
+<main id="arriba">
+  <section class="portada" aria-labelledby="titulo">
+    <div class="portada-texto">
+      <h1 id="titulo">Bolsas, mapa y misiones de WoW Forever en tu otro monitor.</h1>
+      <p class="bajada">KnuCompanion es una ventana de Windows que muestra en vivo lo que pasa en tu partida: equipo, bolsas, banco, misiones, chat, progreso y un mapa con el camino a tu destino. La dejás al costado y no abrís más paneles dentro del juego.</p>
+      <div class="accion">
+        <a class="boton js-descarga" href="https://github.com/knupson/KnuCompanion/releases/download/v0.15.93-beta/KnuCompanion-win-Setup.exe">
+          <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Descargar para Windows
+        </a>
+        <p class="dato"><span class="js-version">Beta 0.15.93</span> · Windows 10 y 11 de 64 bits · gratis</p>
+        <p class="dato"><a class="js-zip" href="https://github.com/knupson/KnuCompanion/releases/download/v0.15.93-beta/KnuCompanion-win-Portable.zip">Zip portable</a>, si preferís no instalar.</p>
+      </div>
+    </div>
+    <figure class="portada-captura">
+      <img src="img/app.webp" width="1920" height="1004" alt="KnuCompanion abierta: a la izquierda el mapa de Desolace con el próximo paso de una misión, a la derecha el personaje en 3D con su equipo y las bolsas ordenadas por categoría.">
+      <figcaption>La app real, con los datos que mandó el juego.</figcaption>
+    </figure>
+  </section>
+
+  <section id="instalar" class="instalar" aria-labelledby="instalar-titulo">
+    <h2 id="instalar-titulo">Tres pasos y queda andando</h2>
+    <ol class="pasos">
+      <li>
+        <span class="num" aria-hidden="true">1</span>
+        <h3>Bajá el instalador</h3>
+        <p>Ejecutá <code>KnuCompanion-win-Setup.exe</code>. Se instala para tu usuario y después se actualiza sola: cuando hay versión nueva, la app te muestra «Actualizar».</p>
+      </li>
+      <li>
+        <span class="num" aria-hidden="true">2</span>
+        <h3>Elegí la carpeta del juego</h3>
+        <p>La primera vez te pide dónde está World of Warcraft, por ejemplo <code>D:\World of Warcraft</code>.</p>
+      </li>
+      <li>
+        <span class="num" aria-hidden="true">3</span>
+        <h3>Tocá «Instalar addon»</h3>
+        <p>La app instala su addon, KnuCompanion. Entrá al juego o hacé <code>/reload</code> y los paneles se llenan solos.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section id="paneles" class="paneles" aria-labelledby="paneles-titulo">
+    <h2 id="paneles-titulo">Lo que ves mientras jugás</h2>
+
+    <article class="panel panel-ancho">
+      <img src="img/mapa.webp" width="1100" height="818" loading="lazy" alt="Mapa de Desolace con la flecha del personaje, una línea punteada hasta el objetivo «Recolección de kodos» y el cartel «Próximo paso: Recolección de kodos, 81 m».">
+      <div class="panel-texto">
+        <h3>Mapa</h3>
+        <p>Tu posición en el minimapa de la zona entera, con el rastro de por dónde pasaste. Arriba, el próximo paso: qué misión toca y a cuántos metros está.</p>
+        <p>Con addons opcionales dibuja el camino por las rutas, con vuelos, barcos y portales, y marca entradas de mazmorras, libros y raros.</p>
+      </div>
+    </article>
+
+    <div class="par">
+      <article class="panel">
+        <img src="img/personaje.webp" width="670" height="460" loading="lazy" alt="Panel Personaje: el modelo en 3D de un paladín no-muerto de nivel 33 con su equipo a los costados y el nivel de objeto medio.">
+        <div class="panel-texto">
+          <h3>Personaje</h3>
+          <p>Tu personaje en 3D con lo que tiene puesto, el nivel de cada pieza y un aviso cuando hay que reparar.</p>
+        </div>
+      </article>
+      <article class="panel">
+        <img src="img/bolsas.webp" width="670" height="430" loading="lazy" alt="Panel Bolsas en vista de categorías: piedra de hogar, consumibles, misiones, armas, armaduras y materiales, con lugares libres y valor de venta arriba.">
+        <div class="panel-texto">
+          <h3>Bolsas y banco</h3>
+          <p>Agrupadas por categoría, con buscador, lugares libres, cuánto vale todo al vendedor y marcas de mejora contra tu equipo.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="par">
+      <article class="panel">
+        <img src="img/misiones.webp" width="670" height="460" loading="lazy" alt="Panel Misiones: arriba la misión que estás haciendo, después las listas para entregar, cada una con su objetivo cumplido y botones para Wowhead y el mapa.">
+        <div class="panel-texto">
+          <h3>Misiones</h3>
+          <p>Primero la que estás haciendo, después las listas para entregar. Cada una se abre en el mapa o en Wowhead.</p>
+        </div>
+      </article>
+      <article class="panel">
+        <img src="img/progreso.webp" width="670" height="460" loading="lazy" alt="Panel Progreso con el historial de sesiones de varios personajes: hora, duración, experiencia por hora y oro por hora.">
+        <div class="panel-texto">
+          <h3>Progreso</h3>
+          <p>Tus últimas sesiones con cuánto duraron y cuánta experiencia y oro sacaste por hora. También tu grupo, profesiones, reputaciones y efectos activos.</p>
+        </div>
+      </article>
+    </div>
+
+    <ul class="mas">
+      <li><strong>Chat</strong>Con buscador, y un aviso cuando te nombran.</li>
+      <li><strong>Avisos de Windows</strong>Susurros, correo, bolsas llenas o una misión lista para entregar, aunque no estés mirando la app.</li>
+      <li><strong>Paneles en zonas</strong>Los acomodás como quieras y abrís más ventanas en otros monitores.</li>
+    </ul>
+  </section>
+
+  <section id="addons" class="addons" aria-labelledby="addons-titulo">
+    <h2 id="addons-titulo">Qué necesitás</h2>
+    <div class="addons-grilla">
+      <div class="obligatorio">
+        <h3>Obligatorio</h3>
+        <ul>
+          <li>Windows 10 u 11 de 64 bits.</li>
+          <li>World of Warcraft: Forever.</li>
+          <li>El addon KnuCompanion. Viene con la app y se instala con un botón.</li>
+        </ul>
+      </div>
+      <div class="opcional">
+        <h3>Opcional</h3>
+        <p>La app anda sin estos. Cada uno que tengas suma algo:</p>
+        <table>
+          <tbody>
+            <tr><th scope="row">FarstriderLib + FarstriderLib Data</th><td>Camino por las rutas hasta tu destino, con vuelos, barcos y portales</td></tr>
+            <tr><th scope="row">ShortestPathForever</th><td>Ruta por tramos si no tenés FarstriderLib</td></tr>
+            <tr><th scope="row">TomTom</th><td>El destino de la flecha en el mapa</td></tr>
+            <tr><th scope="row">Syndicator</th><td>Qué tiene cada uno de tus personajes sin conectarlo</td></tr>
+            <tr><th scope="row">Baganator</th><td>Categorías de Bolsas y Banco en el orden de Baganator</td></tr>
+            <tr><th scope="row">Auctionator</th><td>Precio de subasta en los tooltips</td></tr>
+            <tr><th scope="row">QuestieDB</th><td>Zonas de los objetivos de tus misiones en el mapa</td></tr>
+            <tr><th scope="row">KnuJunk</th><td>Marcas de basura en las bolsas</td></tr>
+            <tr><th scope="row">HandyNotes (mazmorras, libros, WoW Forever)</th><td>Entradas de mazmorras, libros y raros en el mapa</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="cierre" aria-labelledby="cierre-titulo">
+    <div>
+      <h2 id="cierre-titulo">Qué toca en tu PC</h2>
+      <p>La app lee la carpeta del juego. Escribe ahí sólo para instalar o actualizar su addon y para liberar en disco la parte de <code>Logs/General.log</code> que ya leyó: el archivo sigue ahí, sin ocupar espacio.</p>
+      <p>Es una beta y hay partes que todavía no se probaron en el juego. Si algo falla, <a href="https://github.com/knupson/KnuCompanion/issues">abrí un issue</a>.</p>
+    </div>
+    <a class="boton js-descarga" href="https://github.com/knupson/KnuCompanion/releases/download/v0.15.93-beta/KnuCompanion-win-Setup.exe">
+      <svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path d="M12 3v12m0 0-5-5m5 5 5-5M4 19h16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Descargar para Windows
+    </a>
+  </section>
+</main>
+
+<footer class="pie">
+  <p>KnuCompanion no está hecho ni respaldado por Blizzard Entertainment. World of Warcraft es una marca de Blizzard Entertainment.</p>
+</footer>
+
+<script>
+// GitHub no tiene «último release» si todos son beta: se lee la lista y se apunta al más nuevo.
+fetch("https://api.github.com/repos/knupson/KnuCompanion/releases?per_page=5")
+  .then(r => r.ok ? r.json() : [])
+  .then(list => {
+    const release = list.find(r => !r.draft);
+    if (!release) return;
+    const asset = name => release.assets.find(a => a.name === name)?.browser_download_url;
+    const setup = asset("KnuCompanion-win-Setup.exe"), zip = asset("KnuCompanion-win-Portable.zip");
+    if (setup) document.querySelectorAll(".js-descarga").forEach(a => a.href = setup);
+    if (zip) document.querySelectorAll(".js-zip").forEach(a => a.href = zip);
+    const version = release.tag_name.replace(/^v/, "").replace(/-beta$/, "");
+    document.querySelectorAll(".js-version").forEach(s => s.textContent = (release.prerelease ? "Beta " : "Versión ") + version);
+  })
+  .catch(() => {});
+</script>
+</body>
+</html>
